@@ -1,9 +1,6 @@
 body {
   background-image: url("https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704__340.jpg");
 }
-<body>
-
-
 
 body {
   background: #20262E;
@@ -89,3 +86,4 @@ p {
 }
 .destination-list-item .country-name {
   font-size: .7rem
+}

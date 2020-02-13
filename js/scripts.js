@@ -1,20 +1,3 @@
-<html lang="en"
-<head>
-  <meta charset="utf-8">
-
-  <title> The HTML5 Herald</title>
-  <meta name= "description" content="The HTML 5 Herald">
-  <meta name="author" content="SitePoint">
-
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-
-  </head>
-<body>
-
-  </body>
-
-  <body>
-    <script src="js/scripts.js"></script>
     // find elements
     var banner = $("#banner-message")
     var button = $("button")
@@ -73,5 +56,3 @@
       $('#travel-art').empty()
       $('#travel-art').css('background-image', `url(${TravelDestinationUrl})`)
     })
-    </body>
-  </html>
