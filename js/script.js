@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="css/styles.css?v=1.0">
 
   </head>
+<body>
+
+  </body>
 
   <body>
     <script src="js/scripts.js"></script>
@@ -70,6 +73,5 @@
       $('#travel-art').empty()
       $('#travel-art').css('background-image', `url(${TravelDestinationUrl})`)
     })
-
-  </body>
+    </body>
   </html>
