@@ -1,0 +1,91 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704__340.jpg");
+}
+<body>
+
+
+
+body {
+  background: #20262E;
+  padding: 20px;
+  font-family: Helvetica;
+}
+
+button {
+  background: #0084ff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 14px;
+  font-size: 15px;
+  color: #fff;
+}
+
+#banner-message.alt {
+  background: #0084ff;
+  color: #fff;
+  margin-top: 40px;
+  width: 200px;
+}
+
+#banner-message.alt button {
+  background: #fff;
+  color: #000;
+}
+
+#mydiv {
+  position: absolute;
+  top: 200px;
+  z-index: 9;
+  background-color: #f1f1f1;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+  }
+
+#destination-list {
+  width: 50%;
+  display: inline-block;
+  float: right;
+  text-align: left;
+}
+
+#destination-art {
+  width: 50%;
+  height: 300px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#travel-art{
+  height:300px;
+  width: 50%;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.destination-list-item {
+   border: 1px solid #ccc;
+   padding: 8px;
+   border-radius: 6px;
+   margin-bottom: 10px;
+}
+
+
+.destination-list-item:hover {
+   background-color: #bebebe;
+   cursor: pointer;
+}
+p {
+  margin: 0;
+}
+.destination-list-item .country-name {
+  font-size: .7rem
